@@ -1,1 +1,1 @@
-# ST790-DTR
+# ST790-Dynamic-Treatment-Regime-2020Fall

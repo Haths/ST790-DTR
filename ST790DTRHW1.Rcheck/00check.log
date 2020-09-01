@@ -1,0 +1,60 @@
+* using log directory ‘/Users/ZlsMB/Desktop/ST790/zsong7ST790/ST790DTRHW1.Rcheck’
+* using R version 3.6.1 (2019-07-05)
+* using platform: x86_64-apple-darwin15.6.0 (64-bit)
+* using session charset: UTF-8
+* using options ‘--no-manual --as-cran’
+* checking for file ‘ST790DTRHW1/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘ST790DTRHW1’ version ‘0.1.0’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking serialization versions ... OK
+* checking whether package ‘ST790DTRHW1’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... NOTE
+unable to verify current time
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+swv_ML: warning in rowMeans(x = mmML, dim = 2L): partial argument match
+  of 'dim' to 'dims'
+swv_ML: warning in rowMeans(x = dmML, dim = 2L): partial argument match
+  of 'dim' to 'dims'
+swv_OLS: warning in rowMeans(x = mmOLS, dim = 2L): partial argument
+  match of 'dim' to 'dims'
+swv_OLS: warning in rowMeans(x = dmOLS, dim = 2L): partial argument
+  match of 'dim' to 'dims'
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  ‘delta_DR’ ‘delta_DR_se’ ‘delta_DR_swv’ ‘delta_IPW’ ‘delta_IPW_se’
+  ‘delta_IPW_swv’ ‘delta_N’ ‘delta_N_se’ ‘delta_OR’ ‘delta_OR_se’
+  ‘delta_OR_swv’ ‘swv_ML’ ‘swv_OLS’
+All user-level objects in a package should have documentation entries.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking examples ... NONE
+* DONE
+Status: 1 WARNING, 2 NOTEs
