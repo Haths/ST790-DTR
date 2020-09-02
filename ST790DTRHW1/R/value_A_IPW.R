@@ -30,6 +30,7 @@ value_A_IPW <- function(moPS, data, y, txName, regime) {
   #### Value Estimate
   
   EY <- array(data = 0.0, dim = 2L, dimnames = list(c("0","1")))
+  Weight <- array(data = 0.0, dim = 2L, dimnames = list(c("0","1")))
   sub1 <- {regime == data[,txName]} & {data[,txName] == 1L}
   sub0 <- {regime == data[,txName]} & {data[,txName] == 0L}
   EY[2L] <- sum(x = sub1 * y / p1)
